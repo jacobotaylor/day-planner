@@ -28,7 +28,7 @@ $("#17-text").val(localStorage.getItem("17-row"));
 //displays the items saved in local storage
 
 
-when();
+
 
 setInterval(displayTime, 1000);
 
