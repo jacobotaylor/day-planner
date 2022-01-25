@@ -29,4 +29,4 @@ The site will hold information that you store in it for the day, you can change 
 (https://github.com/jacobotaylor/day-planner)
 
 [day-planner] 
-(https://jacobotaylor.github.io/band-weather-app/)
+(https://jacobotaylor.github.io/day-planner/)
