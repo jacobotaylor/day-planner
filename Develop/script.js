@@ -13,12 +13,8 @@ localStorage.setItem(time, text);
 
 });
 
-
-var thisHour = moment().format('HH'); 
-  if(thisHour > rightNow) {
-    
-  };
-  
+// const timeOfDay = [9,10,11,12,13,14,15,16,17]
+// <div class="col-md-1 time-block">11am</div>
 
 $("#9-text").val(localStorage.getItem("9-row"));
 $("#10-text").val(localStorage.getItem("10-row"));
@@ -32,7 +28,12 @@ $("#17-text").val(localStorage.getItem("17-row"));
 //displays the items saved in local storage
 
 
+when();
+
+setInterval(displayTime, 1000);
 
 
-  setInterval(displayTime, 000);
-
+// var thisHour = moment().format('HH'); 
+//   if(thisHour > rightNow) {
+    
+//   };
